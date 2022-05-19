@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0026A726282B0DCA00E53B1E /* FilmNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A720282B0DCA00E53B1E /* FilmNetworkResponse.swift */; };
+		0026A727282B0DCA00E53B1E /* CharacterNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A721282B0DCA00E53B1E /* CharacterNetworkResponse.swift */; };
+		0026A728282B0DCA00E53B1E /* VehicleNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A722282B0DCA00E53B1E /* VehicleNetworkResponse.swift */; };
+		0026A729282B0DCA00E53B1E /* SpeciesNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A723282B0DCA00E53B1E /* SpeciesNetworkResponse.swift */; };
+		0026A72A282B0DCA00E53B1E /* PlanetNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A724282B0DCA00E53B1E /* PlanetNetworkResponse.swift */; };
+		0026A72B282B0DCA00E53B1E /* StarshipNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A725282B0DCA00E53B1E /* StarshipNetworkResponse.swift */; };
+		0026A734282B0DEE00E53B1E /* VehicleNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A72D282B0DEE00E53B1E /* VehicleNetworking.swift */; };
+		0026A735282B0DEE00E53B1E /* PeopleNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A72E282B0DEE00E53B1E /* PeopleNetworking.swift */; };
+		0026A736282B0DEE00E53B1E /* FilmNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A72F282B0DEE00E53B1E /* FilmNetworking.swift */; };
+		0026A737282B0DEE00E53B1E /* PlanetsNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A730282B0DEE00E53B1E /* PlanetsNetworking.swift */; };
+		0026A738282B0DEE00E53B1E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A731282B0DEE00E53B1E /* Networking.swift */; };
+		0026A739282B0DEE00E53B1E /* SpeciesNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A732282B0DEE00E53B1E /* SpeciesNetworking.swift */; };
+		0026A73A282B0DEE00E53B1E /* StarshipNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026A733282B0DEE00E53B1E /* StarshipNetworking.swift */; };
+		002D45F8283377210026440D /* NetworkingCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D45F7283377210026440D /* NetworkingCore.swift */; };
+		00B98D5D282AFA9100D4C742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B98D5C282AFA9100D4C742 /* AppDelegate.swift */; };
+		00B98D5F282AFA9100D4C742 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B98D5E282AFA9100D4C742 /* SceneDelegate.swift */; };
+		00B98D61282AFA9100D4C742 /* PlanetsMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B98D60282AFA9100D4C742 /* PlanetsMainTableViewController.swift */; };
+		00B98D66282AFA9600D4C742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B98D65282AFA9600D4C742 /* Assets.xcassets */; };
+		00B98D69282AFA9600D4C742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B98D67282AFA9600D4C742 /* LaunchScreen.storyboard */; };
+		00B98D71282AFD8100D4C742 /* PlanetTableViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B98D70282AFD8100D4C742 /* PlanetTableViewViewModel.swift */; };
+		00B98D75282B004000D4C742 /* PlanetTableViewViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B98D74282B004000D4C742 /* PlanetTableViewViewModelType.swift */; };
+		00B98D78282B02B100D4C742 /* PlanetInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B98D77282B02B100D4C742 /* PlanetInfoTableViewController.swift */; };
+		00B98D7A282B031300D4C742 /* PlanetInfoViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B98D79282B031300D4C742 /* PlanetInfoViewModelType.swift */; };
+		00B98D7C282B038C00D4C742 /* PlanetInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B98D7B282B038C00D4C742 /* PlanetInfoViewModel.swift */; };
+		00FC8B1B2834D8F100B95F9B /* MainScreenCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC8B1A2834D8F100B95F9B /* MainScreenCollectionViewController.swift */; };
+		00FC8B1D2834E6DC00B95F9B /* MainScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC8B1C2834E6DC00B95F9B /* MainScreenCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0026A720282B0DCA00E53B1E /* FilmNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmNetworkResponse.swift; sourceTree = "<group>"; };
+		0026A721282B0DCA00E53B1E /* CharacterNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterNetworkResponse.swift; sourceTree = "<group>"; };
+		0026A722282B0DCA00E53B1E /* VehicleNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleNetworkResponse.swift; sourceTree = "<group>"; };
+		0026A723282B0DCA00E53B1E /* SpeciesNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeciesNetworkResponse.swift; sourceTree = "<group>"; };
+		0026A724282B0DCA00E53B1E /* PlanetNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetNetworkResponse.swift; sourceTree = "<group>"; };
+		0026A725282B0DCA00E53B1E /* StarshipNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipNetworkResponse.swift; sourceTree = "<group>"; };
+		0026A72D282B0DEE00E53B1E /* VehicleNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleNetworking.swift; sourceTree = "<group>"; };
+		0026A72E282B0DEE00E53B1E /* PeopleNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleNetworking.swift; sourceTree = "<group>"; };
+		0026A72F282B0DEE00E53B1E /* FilmNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmNetworking.swift; sourceTree = "<group>"; };
+		0026A730282B0DEE00E53B1E /* PlanetsNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsNetworking.swift; sourceTree = "<group>"; };
+		0026A731282B0DEE00E53B1E /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		0026A732282B0DEE00E53B1E /* SpeciesNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeciesNetworking.swift; sourceTree = "<group>"; };
+		0026A733282B0DEE00E53B1E /* StarshipNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipNetworking.swift; sourceTree = "<group>"; };
+		002D45F7283377210026440D /* NetworkingCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingCore.swift; sourceTree = "<group>"; };
+		00B98D59282AFA9100D4C742 /* SWAPI-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWAPI-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B98D5C282AFA9100D4C742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00B98D5E282AFA9100D4C742 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00B98D60282AFA9100D4C742 /* PlanetsMainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsMainTableViewController.swift; sourceTree = "<group>"; };
+		00B98D65282AFA9600D4C742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00B98D68282AFA9600D4C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00B98D6A282AFA9600D4C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B98D70282AFD8100D4C742 /* PlanetTableViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTableViewViewModel.swift; sourceTree = "<group>"; };
+		00B98D74282B004000D4C742 /* PlanetTableViewViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTableViewViewModelType.swift; sourceTree = "<group>"; };
+		00B98D77282B02B100D4C742 /* PlanetInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetInfoTableViewController.swift; sourceTree = "<group>"; };
+		00B98D79282B031300D4C742 /* PlanetInfoViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetInfoViewModelType.swift; sourceTree = "<group>"; };
+		00B98D7B282B038C00D4C742 /* PlanetInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetInfoViewModel.swift; sourceTree = "<group>"; };
+		00FC8B1A2834D8F100B95F9B /* MainScreenCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenCollectionViewController.swift; sourceTree = "<group>"; };
+		00FC8B1C2834E6DC00B95F9B /* MainScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B98D56282AFA9100D4C742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0026A71F282B0DCA00E53B1E /* NetworkResponse */ = {
+			isa = PBXGroup;
+			children = (
+				0026A720282B0DCA00E53B1E /* FilmNetworkResponse.swift */,
+				0026A721282B0DCA00E53B1E /* CharacterNetworkResponse.swift */,
+				0026A722282B0DCA00E53B1E /* VehicleNetworkResponse.swift */,
+				0026A723282B0DCA00E53B1E /* SpeciesNetworkResponse.swift */,
+				0026A724282B0DCA00E53B1E /* PlanetNetworkResponse.swift */,
+				0026A725282B0DCA00E53B1E /* StarshipNetworkResponse.swift */,
+			);
+			path = NetworkResponse;
+			sourceTree = "<group>";
+		};
+		0026A72C282B0DEE00E53B1E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0026A72D282B0DEE00E53B1E /* VehicleNetworking.swift */,
+				0026A72E282B0DEE00E53B1E /* PeopleNetworking.swift */,
+				0026A72F282B0DEE00E53B1E /* FilmNetworking.swift */,
+				0026A730282B0DEE00E53B1E /* PlanetsNetworking.swift */,
+				0026A731282B0DEE00E53B1E /* Networking.swift */,
+				002D45F7283377210026440D /* NetworkingCore.swift */,
+				0026A732282B0DEE00E53B1E /* SpeciesNetworking.swift */,
+				0026A733282B0DEE00E53B1E /* StarshipNetworking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		00B98D50282AFA9100D4C742 = {
+			isa = PBXGroup;
+			children = (
+				00B98D5B282AFA9100D4C742 /* SWAPI-MVVM */,
+				00B98D5A282AFA9100D4C742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00B98D5A282AFA9100D4C742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B98D59282AFA9100D4C742 /* SWAPI-MVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B98D5B282AFA9100D4C742 /* SWAPI-MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				0026A72C282B0DEE00E53B1E /* Networking */,
+				0026A71F282B0DCA00E53B1E /* NetworkResponse */,
+				00B98D5C282AFA9100D4C742 /* AppDelegate.swift */,
+				00B98D5E282AFA9100D4C742 /* SceneDelegate.swift */,
+				00B98D76282B005000D4C742 /* Protocols */,
+				00B98D73282B002700D4C742 /* ViewModels */,
+				00B98D72282B001400D4C742 /* ViewControllers */,
+				00B98D65282AFA9600D4C742 /* Assets.xcassets */,
+				00B98D67282AFA9600D4C742 /* LaunchScreen.storyboard */,
+				00B98D6A282AFA9600D4C742 /* Info.plist */,
+			);
+			path = "SWAPI-MVVM";
+			sourceTree = "<group>";
+		};
+		00B98D72282B001400D4C742 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				00B98D60282AFA9100D4C742 /* PlanetsMainTableViewController.swift */,
+				00B98D77282B02B100D4C742 /* PlanetInfoTableViewController.swift */,
+				00FC8B1A2834D8F100B95F9B /* MainScreenCollectionViewController.swift */,
+				00FC8B1C2834E6DC00B95F9B /* MainScreenCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		00B98D73282B002700D4C742 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				00B98D70282AFD8100D4C742 /* PlanetTableViewViewModel.swift */,
+				00B98D7B282B038C00D4C742 /* PlanetInfoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		00B98D76282B005000D4C742 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				00B98D74282B004000D4C742 /* PlanetTableViewViewModelType.swift */,
+				00B98D79282B031300D4C742 /* PlanetInfoViewModelType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00B98D58282AFA9100D4C742 /* SWAPI-MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B98D6D282AFA9600D4C742 /* Build configuration list for PBXNativeTarget "SWAPI-MVVM" */;
+			buildPhases = (
+				00B98D55282AFA9100D4C742 /* Sources */,
+				00B98D56282AFA9100D4C742 /* Frameworks */,
+				00B98D57282AFA9100D4C742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SWAPI-MVVM";
+			productName = "SWAPI-MVVM";
+			productReference = 00B98D59282AFA9100D4C742 /* SWAPI-MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B98D51282AFA9100D4C742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					00B98D58282AFA9100D4C742 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 00B98D54282AFA9100D4C742 /* Build configuration list for PBXProject "SWAPI-MVVM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00B98D50282AFA9100D4C742;
+			productRefGroup = 00B98D5A282AFA9100D4C742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B98D58282AFA9100D4C742 /* SWAPI-MVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B98D57282AFA9100D4C742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B98D69282AFA9600D4C742 /* LaunchScreen.storyboard in Resources */,
+				00B98D66282AFA9600D4C742 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B98D55282AFA9100D4C742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0026A738282B0DEE00E53B1E /* Networking.swift in Sources */,
+				00FC8B1B2834D8F100B95F9B /* MainScreenCollectionViewController.swift in Sources */,
+				0026A736282B0DEE00E53B1E /* FilmNetworking.swift in Sources */,
+				00B98D7C282B038C00D4C742 /* PlanetInfoViewModel.swift in Sources */,
+				00FC8B1D2834E6DC00B95F9B /* MainScreenCell.swift in Sources */,
+				00B98D61282AFA9100D4C742 /* PlanetsMainTableViewController.swift in Sources */,
+				0026A734282B0DEE00E53B1E /* VehicleNetworking.swift in Sources */,
+				00B98D78282B02B100D4C742 /* PlanetInfoTableViewController.swift in Sources */,
+				0026A728282B0DCA00E53B1E /* VehicleNetworkResponse.swift in Sources */,
+				0026A73A282B0DEE00E53B1E /* StarshipNetworking.swift in Sources */,
+				00B98D75282B004000D4C742 /* PlanetTableViewViewModelType.swift in Sources */,
+				0026A726282B0DCA00E53B1E /* FilmNetworkResponse.swift in Sources */,
+				002D45F8283377210026440D /* NetworkingCore.swift in Sources */,
+				0026A72A282B0DCA00E53B1E /* PlanetNetworkResponse.swift in Sources */,
+				00B98D5D282AFA9100D4C742 /* AppDelegate.swift in Sources */,
+				00B98D7A282B031300D4C742 /* PlanetInfoViewModelType.swift in Sources */,
+				0026A72B282B0DCA00E53B1E /* StarshipNetworkResponse.swift in Sources */,
+				0026A729282B0DCA00E53B1E /* SpeciesNetworkResponse.swift in Sources */,
+				0026A739282B0DEE00E53B1E /* SpeciesNetworking.swift in Sources */,
+				0026A727282B0DCA00E53B1E /* CharacterNetworkResponse.swift in Sources */,
+				00B98D71282AFD8100D4C742 /* PlanetTableViewViewModel.swift in Sources */,
+				0026A737282B0DEE00E53B1E /* PlanetsNetworking.swift in Sources */,
+				0026A735282B0DEE00E53B1E /* PeopleNetworking.swift in Sources */,
+				00B98D5F282AFA9100D4C742 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00B98D67282AFA9600D4C742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B98D68282AFA9600D4C742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00B98D6B282AFA9600D4C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00B98D6C282AFA9600D4C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00B98D6E282AFA9600D4C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CQ436Z988;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SWAPI-MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wheatley.SWAPI-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00B98D6F282AFA9600D4C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CQ436Z988;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SWAPI-MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wheatley.SWAPI-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B98D54282AFA9100D4C742 /* Build configuration list for PBXProject "SWAPI-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B98D6B282AFA9600D4C742 /* Debug */,
+				00B98D6C282AFA9600D4C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B98D6D282AFA9600D4C742 /* Build configuration list for PBXNativeTarget "SWAPI-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B98D6E282AFA9600D4C742 /* Debug */,
+				00B98D6F282AFA9600D4C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00B98D51282AFA9100D4C742 /* Project object */;
+}
